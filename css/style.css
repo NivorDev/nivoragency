@@ -584,11 +584,11 @@ article:nth-child(3){
 
     border-radius:15px;
 
-    background:rgba(255,255,255,.06);
+    background: #ffffff;
 
     border:1px solid rgba(255,255,255,.08);
 
-    color:white;
+   color: #1f2937;
 
     outline:none;
 
