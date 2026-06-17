@@ -108,6 +108,7 @@ a {
 
     z-index:99999;
 
+    transition:opacity .6s ease, visibility .6s ease;
 }
 
 .loader-content{
