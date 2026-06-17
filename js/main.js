@@ -116,12 +116,6 @@ const intervalo = setInterval(() => {
 
         clearInterval(intervalo);
 
-        setTimeout(()=>{
-
-            loader.classList.add("oculto");
-
-        },300);
-
     }
 
 },20);
