@@ -98,3 +98,30 @@ window.addEventListener("load", () => {
     }, 1000);
 
 });
+
+
+
+const barra = document.querySelector(".progress-bar");
+const loader = document.getElementById("loader");
+
+let progreso = 0;
+
+const intervalo = setInterval(() => {
+
+    progreso++;
+
+    barra.style.width = progreso + "%";
+
+    if(progreso >= 100){
+
+        clearInterval(intervalo);
+
+        setTimeout(()=>{
+
+            loader.classList.add("oculto");
+
+        },300);
+
+    }
+
+},20);
