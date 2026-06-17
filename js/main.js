@@ -85,3 +85,16 @@ document.querySelectorAll("nav a").forEach(link=>{
     });
 
 });
+
+
+window.addEventListener("load", () => {
+
+    const loader = document.getElementById("loader");
+
+    setTimeout(() => {
+
+        loader.classList.add("oculto");
+
+    }, 1000);
+
+});
